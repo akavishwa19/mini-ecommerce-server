@@ -100,7 +100,9 @@ const me = async (req,res)=>{
 
 const logout= async (req,res)=>{
   try {
-    res.clearCookie('auth_cookie');
+    res.clearCookie('auth_cookie',{
+      httpOnly: true, sameSite: "None" , secure: true,
+    });
     return res.status(200).json(
       new SuccessResponse(200,null,'user logged out succesfully')
     )
