@@ -15,6 +15,8 @@ app.use(
       "http://localhost:4200",
       "https://mini-ecommerce-2urr5rips-akavishwa19s-projects.vercel.app",
       "http://mini-ecommerce-2urr5rips-akavishwa19s-projects.vercel.app",
+      "https://mini-ecommerce-iota.vercel.app",
+       "http://mini-ecommerce-iota.vercel.app"
     ],
     credentials: true,
   })
