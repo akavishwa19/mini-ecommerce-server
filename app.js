@@ -13,8 +13,8 @@ app.use(
     origin: [
       "http://localhost:4500",
       "http://localhost:4200",
-      // "https://frontend-attendence.vercel.app",
-      // "http://frontend-attendence.vercel.app",
+      "https://mini-ecommerce-2urr5rips-akavishwa19s-projects.vercel.app",
+      "http://mini-ecommerce-2urr5rips-akavishwa19s-projects.vercel.app",
     ],
     credentials: true,
   })
